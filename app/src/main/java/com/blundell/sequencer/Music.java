@@ -1,11 +1,11 @@
-package com.blundell.tut;
+package com.blundell.sequencer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-interface Music {
+public interface Music {
     Duration EIGTH = new Duration(0.125);
     Duration QUARTER = new Duration(0.25);
     Duration HALF = new Duration(0.5);
